@@ -1,0 +1,29 @@
+package MazenetDay4;
+import MazenetDay4_1.*;
+
+public class Animal {
+	
+	public void legs() {
+		System.out.println("Legs Method");
+	}
+	public void tail() {
+		System.out.println("Tails Method");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Animal a=new Animal() ;
+		Mammal m=new Mammal();
+		a.legs();
+		
+		m.legs();
+		m.tail();
+		
+
+	}
+
+}
+
+
+
